@@ -7,13 +7,13 @@ class DropdownMenuApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Handposter 0.1',
+        title: 'Handposter 0.2',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
           useMaterial3: true,
         ),
         home: Scaffold(
-          appBar: AppBar(title: const Text('Handposter 0.1'),
+          appBar: AppBar(title: const Text('Handposter 0.2'),
             backgroundColor: Theme.of(context).colorScheme.inversePrimary,),
           body: const Center(
             child: Row(
